@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    background-color: #f9f9f9;
+    height: 100vh;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.notice {
+  color: green;
+}
+.alert {
+  color: red;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.form-horizontal-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.form-horizontal-group .form-label {
+  margin-right: 1rem;
+  width: 150px;
+}
+.form-input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-button:hover {
+  background-color: #0056b3;
+}
+.form-label {
+  font-weight: bold;
+}
+.form-error {
+  color: red;
+  font-size: 0.875rem;
+}
+.form-header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.form-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+.form-link:hover {
+  text-decoration: underline;
+}
+.form-footer {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #666;
+}
+.form-footer .form-button {
+  flex: 1 1 0;
+  width: 100%;
+}
+.form-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+.omniauth-provider {
+    display: flex;
+    margin-top: 1rem;
+    text-align: center;
+}
+.omniauth-provider .form-button {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    margin: 0 0.5rem;
+    width: 48px;
+}
