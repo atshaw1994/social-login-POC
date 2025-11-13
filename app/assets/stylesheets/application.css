@@ -11,6 +11,10 @@ body {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    padding: 1rem;
 }
 .notice {
   color: green;
