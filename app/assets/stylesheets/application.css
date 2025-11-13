@@ -42,16 +42,24 @@ body {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-.form-button {
+
+.form-button, .form-button:visited, .form-button:active {
+  display: inline-block;
   padding: 0.5rem 1rem;
   background-color: #007bff;
-  color: white;
+  color: white !important;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font: inherit;
+  transition: background 0.2s;
 }
-.form-button:hover {
+.form-button:hover, .form-button:focus {
   background-color: #0056b3;
+  color: white !important;
+  text-decoration: none;
 }
 .form-label {
   font-weight: bold;
@@ -91,7 +99,6 @@ body {
   text-decoration: none;
 }
 .omniauth-provider {
-    display: flex;
     text-align: center;
     align-self: center;
 }
