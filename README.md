@@ -1,24 +1,44 @@
-# README
+## Social Login Proof of Concept
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a proof of concept app that taught me how to use Omniauth for social sign-ins. Development will plateau and stop as this will be merged into [Narratree](https://github.com/atshaw1994/Narratree).
 
-Things you may want to cover:
+## Screenshot
 
-* Ruby version
+![Screenshot](Screenshot.png)
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get this app running on your computer:
 
-* Database creation
+1. **Clone the repository:**
 
-* Database initialization
+   ```sh
+   git clone https://github.com/atshaw1994/social-login-POC.git
+   cd social-login-POC
+   ```
 
-* How to run the test suite
+2. **Install dependencies:**
 
-* Services (job queues, cache servers, search engines, etc.)
+   ```sh
+   bundle install
+   ```
 
-* Deployment instructions
+3. **Set up the database:**
 
-* ...
+   ```sh
+   rails db:setup
+   ```
+
+4. **Set up environment variables:**
+
+   - Copy `.env.example` to `.env` (if present) and fill in your Omniauth provider keys (Google, Facebook, Apple, etc.).
+   - Or set the required environment variables in your shell/profile.
+
+5. **Start the Rails server:**
+
+   ```sh
+   rails s
+   ```
+
+6. **Visit the app:**
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
