@@ -34,17 +34,17 @@
     <div class="omniauth-provider">
       <%= link_to user_google_oauth2_omniauth_authorize_path, class: "form-button google" do %>
         <span>
-          <%= raw File.read(Rails.root.join('app/assets/images/google_g.svg')) %>
+          <img src="https://www.google.com/s2/favicons?sz=64&domain=google.com" alt="Google" style="width: 18px; height: 18px; vertical-align: middle;" />
         </span>
       <% end %>
       <%= link_to user_facebook_omniauth_authorize_path, class: "form-button facebook" do %>
         <span>
-          <%= raw File.read(Rails.root.join('app/assets/images/facebook.svg')) %>
+          <img src="https://www.facebook.com/favicon.ico" alt="Facebook" style="width: 18px; height: 18px; vertical-align: middle;" />
         </span>
       <% end %>
       <%= link_to user_apple_omniauth_authorize_path, class: "form-button apple" do %>
         <span>
-          <%= raw File.read(Rails.root.join('app/assets/images/apple.svg')) %>
+          <img src="https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?202109210302" alt="Apple" style="width: 18px; height: 18px; vertical-align: middle;" />
         </span>
       <% end %>
     </div>
