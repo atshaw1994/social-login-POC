@@ -201,6 +201,9 @@ GEM
       logger
       rack (>= 2.2.3)
       rack-protection
+    omniauth-facebook (10.0.0)
+      bigdecimal
+      omniauth-oauth2 (>= 1.2, < 3)
     omniauth-google-oauth2 (1.2.1)
       jwt (>= 2.9.2)
       oauth2 (~> 2.0)
@@ -349,6 +352,7 @@ DEPENDENCIES
   devise
   importmap-rails
   jbuilder
+  omniauth-facebook
   omniauth-google-oauth2
   puma (>= 5.0)
   rails (~> 7.1.6)

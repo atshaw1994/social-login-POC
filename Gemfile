@@ -17,6 +17,9 @@ gem 'devise'
 # Use OmniAuth Google OAuth2 strategy for Google authentication [https://github.com/omniauth/omniauth-google-oauth2]
 gem 'omniauth-google-oauth2'
 
+# Use OmniAuth Facebook strategy for Facebook authentication [https://github.com/omniauth/omniauth-facebook]
+gem 'omniauth-facebook'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
