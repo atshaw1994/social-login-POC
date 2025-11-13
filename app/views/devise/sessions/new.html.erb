@@ -42,6 +42,11 @@
           <%= raw File.read(Rails.root.join('app/assets/images/facebook.svg')) %>
         </span>
       <% end %>
+      <%= link_to user_apple_omniauth_authorize_path, class: "form-button apple" do %>
+        <span>
+          <%= raw File.read(Rails.root.join('app/assets/images/apple.svg')) %>
+        </span>
+      <% end %>
     </div>
 
   <% end %>

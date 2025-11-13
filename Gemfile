@@ -20,6 +20,9 @@ gem 'omniauth-google-oauth2'
 # Use OmniAuth Facebook strategy for Facebook authentication [https://github.com/omniauth/omniauth-facebook]
 gem 'omniauth-facebook'
 
+# Use OmniAuth Apple strategy for Apple authentication [https://github.com/omniauth/omniauth-apple]
+gem 'omniauth-apple'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
